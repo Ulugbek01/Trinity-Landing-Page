@@ -319,6 +319,10 @@
 }
 
 /* Footer section */
+.footer {
+    padding: 0 50px;
+}
+
 .footer .container .logo {
     display: flex;
     align-items: center;
@@ -331,4 +335,75 @@
     line-height: 29px;
     color: #5051F9;
     margin-left: 7.06px;
+}
+
+.footer .social-network__wrapper {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.social-networks > div:not(:last-child){
+    margin-right: 20px;
+}
+
+.footer .icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #5051F9;
+}
+
+.navigation-container {
+    padding: 40px 0;
+}
+
+.navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-wrapper .main-navigation__items {
+    max-width: 662px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .company {
+    margin-bottom: 30px;
+}
+
+.footer .main-navigation__item a{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--nav-link-color)
+}
+
+.footer .email{
+    margin-bottom: 10px;
+}
+
+.footer .email a {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer .tel {
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.footer .tel a{
+    color: #000;
+}
+
+.copy-text {
+    font-size: 14px;
+    color: var(--primary-text-color);
+    margin-bottom: 30px;
 }

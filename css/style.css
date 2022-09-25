@@ -219,6 +219,7 @@
     max-width: 385px;
     width: 100%;
     text-align: center;
+    padding: 0 34px;
 }
 
 .team .profile .profile-name {
@@ -246,4 +247,34 @@
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     margin-top: 32px;
+}
+
+/* Our graduates styles*/
+.graduates .title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 57px;
+    text-transform: capitalize;
+    color: #0B1135;
+    margin-bottom: 40px;
+}
+
+.graduates .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.graduates .left, .graduates .right{
+    width: calc(100% / 2 - 30px);
+}
+
+.graduates .left > div img, .graduates .right > div img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.graduates .left > div, .graduates .right > div {
+    margin-top: 15px;
+    border-radius: 10px;
 }

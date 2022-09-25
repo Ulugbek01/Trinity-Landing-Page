@@ -1,0 +1,40 @@
+/* Header styles */
+.header {
+    padding: 27px 0;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .container .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo-text {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    font-size: 29.4927px;
+    line-height: 29px;
+    color: #5051F9;
+    margin-left: 7.06px;
+}
+
+.header .main-navigation__items {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .main-navigation__item a{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--nav-link-color)
+}

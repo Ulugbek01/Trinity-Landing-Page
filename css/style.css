@@ -194,3 +194,56 @@
 .our-mission__info .square {
     margin-top: 30px;
 }
+
+/* Our team styles */
+.team {
+    padding: 60px 0;
+}
+
+.team .title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 57px;
+    text-transform: capitalize;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.team .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team .container .profile {
+    max-width: 385px;
+    width: 100%;
+    text-align: center;
+}
+
+.team .profile .profile-name {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+
+.team .profile .profile-job {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    opacity: 0.5;
+}
+
+.team .profile .experience {
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    margin-top: 32px;
+}

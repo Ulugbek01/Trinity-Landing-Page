@@ -120,3 +120,6 @@ li {
     text-transform: uppercase;
 }
 
+.c-pointer {
+    cursor: pointer;
+}

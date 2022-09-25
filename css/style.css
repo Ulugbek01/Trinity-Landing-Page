@@ -38,3 +38,29 @@
     line-height: 22px;
     color: var(--nav-link-color)
 }
+
+/* Hero styles */
+.hero {
+    padding: 150px 0;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .hero-title {
+    font-weight: 900;
+    font-size: 76px;
+    line-height: 90px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.hero .hero-desc {
+    max-width: 511px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(11, 17, 53, 0.5);
+}

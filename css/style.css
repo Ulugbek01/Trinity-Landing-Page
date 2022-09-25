@@ -278,3 +278,57 @@
     margin-top: 15px;
     border-radius: 10px;
 }
+
+/* Contact styles */
+.contact {
+    padding: 60px 0;
+}
+
+.contact .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #5051F9;
+    border-radius: 10px;
+    padding: 90px 120px;
+}
+
+.contact .title {
+    max-width: 623px;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.contact-btn {
+    width: 234px;
+    height: 70px;
+    padding: 20px 54px;
+    background: #fff;
+    box-shadow: 0px 34px 40px rgba(44, 45, 109, 0.2);
+    border-radius: 85px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 31px;
+    color: #000;
+}
+
+/* Footer section */
+.footer .container .logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer .logo-text {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    font-size: 29.4927px;
+    line-height: 29px;
+    color: #5051F9;
+    margin-left: 7.06px;
+}

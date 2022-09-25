@@ -124,3 +124,12 @@ li {
 .c-pointer {
     cursor: pointer;
 }
+
+.flex-box {
+    display: flex;
+    align-items: center;
+}
+
+.ml {
+    margin-left: 12px;
+}

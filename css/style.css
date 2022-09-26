@@ -527,7 +527,6 @@
     .hero .hero-title {
         font-size: 36px;
         line-height: 45px;
-        /* max-width: 100%; */
     }
 
     .courses .title, 
@@ -588,6 +587,49 @@
     }
 
     .contact .container{
-        justify-content: flex-start;
+        padding: 30px 10px;
+    }
+
+    .contact .contact-btn {
+        width: 150px;
+        height: 40px;
+        cursor: pointer;
+        line-height: 1.2;
+        padding: 0;
+        border: none;
+        font-weight: 500;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .graduates .title {
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        padding: 0;
+    }
+
+    .footer .main-navigation__items {
+        display: none;
+    }
+
+    .footer .navigation-wrapper > div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+
+    .footer .company {
+        margin-bottom: 10px;
+    }
+
+    .footer .copy-text {
+        margin-bottom: 10px;
     }
 }

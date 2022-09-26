@@ -407,3 +407,59 @@
     color: var(--primary-text-color);
     margin-bottom: 30px;
 }
+
+/* Media query */
+@media only screen and (max-width: 992px){
+    .container {
+        max-width: 992px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    .hero .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero .hero-desc{
+        max-width: 100%;
+    }
+
+    .hero .hero-title {
+        font-size: 36px;
+        line-height: 45px;
+        /* max-width: 100%; */
+    }
+
+    .courses .title, 
+    .our-mission .title,
+    .team .title,
+    .graduates .title {
+        font-size: 32px;
+    }
+
+    .courses .course-items {
+        flex-direction: column;
+    }
+
+    .course-items .course-item {
+        width: 100%;
+    }
+
+    .our-mission .container {
+        flex-direction: column;
+    }
+
+    .team .container {
+        flex-direction: column;
+    }
+
+    .graduates .container {
+        flex-direction: column;
+    }
+
+    .contact .container {
+        flex-direction: column;
+    }
+}

@@ -12,17 +12,20 @@
     <!-- Header section -->
     <header id="header" class="header">
         <div class="container">
-            <div class="logo c-pointer">
-                <img width="32" height="24" src="./assets/imgs/logo.png" alt="log imglogo">
-                <h3 class="logo-text">TRINITY</h3>
-            </div>
-    
-            <ul class="main-navigation__items" id="main-navigation__items">
-                <li class="main-navigation__item"><a href="#hero">Home</a></li>
-                <li class="main-navigation__item"><a href="#courses">Courses</a></li>
-                <li class="main-navigation__item"><a href="#graduates">Graduates</a></li>
-                <li class="main-navigation__item"><a href="#our-mission">About Us</a></li>
-                <li class="main-navigation__item"><a href="#contact">Contact</a></li>
+            <a href="#" class="logo">
+                <img width="32" height="24" src="./assets/imgs/logo.png" alt="logo">
+                <span class="to-uppercase logo-text">Trinity</span>
+            </a>
+
+            <input class="menu-btn" type="checkbox"id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            
+            <ul class="menu" id="menu">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#graduates">Graduates</a></li>
+                <li><a href="#our-mission">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </header>

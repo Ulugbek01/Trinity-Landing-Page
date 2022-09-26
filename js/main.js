@@ -1,8 +1,11 @@
-function myFunction() {
-    var x = document.getElementById("main-navigation__items");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-}
+const links = document.querySelectorAll('.header a');
+
+links.forEach((link) => 
+link.addEventListener('click', function() {
+  links.forEach((item) => item.classList.remove('active'))
+  this.classList.add('active');
+})
+)
+
+
+

@@ -533,8 +533,10 @@
     .courses .title, 
     .our-mission .title,
     .team .title,
-    .graduates .title {
+    .graduates .title,
+    .contact .title {
         font-size: 32px;
+        line-height: 34px;
     }
 
     .courses .course-items {
@@ -569,6 +571,23 @@
         margin: 0 auto;
     }
 
-    
-    
+    .courses .course-items {
+        padding: 30px 0;
+    }
+
+    .course-items .course-item {
+        margin-bottom: 20px;
+    }
+
+    .team .container > div {
+        margin-bottom: 20px;
+    }
+
+    .graduates .container > div {
+        width: 100%;
+    }
+
+    .contact .container{
+        justify-content: flex-start;
+    }
 }

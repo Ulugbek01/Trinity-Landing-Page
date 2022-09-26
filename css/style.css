@@ -130,6 +130,10 @@
     justify-content: space-between;
 }
 
+.hero .container > div {
+    width: 50%;
+}
+
 .hero .hero-title {
     font-weight: 900;
     font-size: 76px;
@@ -542,11 +546,35 @@
     font-size: 14px;
     line-height: 24px;
     color: #828282;
+    border: 1px solid transparent;
+    border-radius: 6px;
 }
 
 .modal-content input:focus, .modal-content textarea:focus{
-    border: 1px solid #555;
+    border: 1px solid #7171f1;
 }
+
+.modal-content textarea {
+    resize: none;
+}
+
+.close-button {
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background: #5051F9;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-family: 'Red Hat Display';
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
 
 /* Media query */
 @media (min-width: 768px) {
@@ -627,6 +655,10 @@
         max-width: 768px;
         width: 100%;
         margin: 0 auto;
+    }
+
+    .hero .container > div {
+        width: 100%;
     }
 
     .courses .course-items {
